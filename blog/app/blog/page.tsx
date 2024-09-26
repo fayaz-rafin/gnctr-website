@@ -1,8 +1,8 @@
 import { BlogPosts } from 'app/components/posts'
 
 export const metadata = {
-  title: 'Hells Kitchen Blog',
-  description: 'Read my our blog and follow our journey to Montreal, 2025!',
+  title: 'Blog of Hells Kitchen',
+  description: 'Read our blog and follow our journey to Montreal, 2025!',
 }
 
 export default function Page() {
