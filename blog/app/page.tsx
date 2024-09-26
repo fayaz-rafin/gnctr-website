@@ -1,8 +1,12 @@
-import { BlogPosts } from 'app/components/posts'
+import Image from "next/image";
+import logo from '../public/kermit.jpeg'
 
 export default function Page() {
   return (
     <section>
+      <div className="flex justify-center w-full">
+        <Image className="" src={logo} alt="Logo" width={120} height={120} />
+      </div>
       <h1 className="mb-8 text-center text-2xl font-semibold tracking-tighter">
         York University's GNCTR Team
       </h1>
