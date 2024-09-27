@@ -1,5 +1,5 @@
 import Image from "next/image";
-import logo from '../public/kermit.jpeg'
+import logo from '../public/logo.jpg'
 
 export default function Page() {
   return (
