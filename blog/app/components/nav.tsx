@@ -7,9 +7,13 @@ const navItems = {
   '/blog': {
     name: 'blog',
   },
-  '/contact': {
-    name: 'contact-us',
+  '/our-team': {
+    name: 'about',
   },
+  '/contact': {
+    name: 'contact',
+  },
+  
 }
 
 export function Navbar() {
